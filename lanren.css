@@ -1,0 +1,57 @@
+*{ margin:0; padding:0; list-style:none}
+body{ background:#FFF; font-family:'微软雅黑'}
+
+.form{
+	width: 450px;
+	height: auto;
+	margin:100px auto; 
+	overflow:hidden;font-size: 16px;
+	color: #1b1b1b;text-align: left; 
+	padding:50px; border:1px solid #ccc; 
+	border-radius:10px;}
+.form div{
+	padding:5px 0;
+	overflow: hidden;}
+.form label{
+	width: 120px;
+	display: block;
+	float: left;
+	text-align:right;
+	padding:4px;}
+.form .infos{
+	width:207px;
+	height: 26px;
+	line-height: 26px;
+	border:1px solid #BFBFBF;
+	padding:2px;
+	border-radius:4px;
+	float: left;}
+.form .div-ranks a.send1{
+	height: 26px;
+	text-decoration:none;
+	line-height: 26px;
+	padding:2px;
+	width: 80px;
+	background: #2fc0f6;
+	font-family: '宋体';
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	display: block;
+	float: left;
+	border-radius:2px;
+	margin-left:2px;}
+.form .div-ranks a.send1:hover{text-decoration: none;background: #15b2ec;}
+.form #ranks{width: 116px;}
+.form .div-conform{padding-right:153px;}
+.form .div-conform input.conform{
+	width: 136px;
+	height: 34px;
+	display: block;
+	cursor:pointer;
+	border:0;
+	text-align: left;
+	overflow: hidden;
+	background: url(../images/btn.jpg) no-repeat;
+	float: right;
+	text-indent: -1000px;}

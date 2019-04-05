@@ -1,0 +1,323 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+	list-style-type:none;}
+.head{
+	width:100%;
+	height:110px;
+	background:#f2f2f2;}
+.DL{
+	font-size: 16px;
+	color:#666;
+	float: right;
+	margin-right:4%;
+	left: 1372px;
+	width: 82px;
+}
+.DL a{text-decoration:none; color:#666;}
+.DL a:hover{text-decoration:none; color:#999;}
+.logo_img{
+	float:left;
+	margin-top:50px;}
+.top{
+	width:970px;
+	margin:0px auto;}
+.head_right{
+	width:760px;
+	float:right;
+	margin-top:50px;
+	height:auto;}
+.head_nav{
+	width:100%;
+	height:60px;
+	float:right;}
+.head_nav li {
+	width:95px;
+	height:67px;
+	line-height:60px;
+	text-align:center;
+	color:#444444;
+	float:left;
+	position:relative;
+	z-index:998;}
+.head_nav li a {
+	display:block;
+	height:67px;
+	font-size:14px;
+	color:#000;
+	text-decoration:none;}
+.head_nav li.on a {
+	background:url(../images/nav.jpg) no-repeat top center;
+	color:#fff;}
+.head_nav li a:hover {
+	background:url(../images/nav.jpg) no-repeat top center;
+	color:#fff;
+	text-decoration:none;}
+	/**头部完**/
+	
+	/**广告图片**/
+.banner{
+	width:100%;
+	height:300px;
+	margin:0px auto;
+	overflow:hidden;}
+banner img{background:url(../images/banner1.jpg) no-repeat top center;}
+/**广告图片完**/
+
+
+/**内容**/
+.content{
+	background:url(../images/contentbg.jpg) no-repeat top center #ebebeb;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	padding:15px 0px 20px;}
+.content_neirong{
+	width:970px;
+	margin:0px auto;}
+.content_left{
+	width:223px;
+	height:auto;
+	float:left;
+	overflow:hidden;}
+.guanyuwomen{
+	width:208px;
+	height:65px;
+	line-height:65px;
+	overflow:hidden;
+	color:#b11a1e;
+	font-size:16px;
+	font-family:微软雅黑;
+	margin-bottom:15px;
+	padding-left:15px;
+	background:url(../images/gybg.jpg) no-repeat top center;}
+#content_cebian{
+	margin:0;
+	padding:0;
+	list-style:none;
+	margin-bottom:15px;}
+#content_cebian ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	display:none;
+	padding-left:36px;
+	margin-top:5px;}
+#content_cebian li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+	width:222px;
+	background:url(../images/cbbg.jpg) no-repeat 0px -37px;
+	line-height:37px;
+	margin-bottom:3px;}
+/*不理解*/
+* html #content_cebian li {
+	float:left;
+	display:inline;}
+#content_cebian li a {
+	padding-left:56px;
+	display:block;
+	font-size:14px;
+	color:#666;
+	background:url(../images/cbbg.jpg) no-repeat 0px -37px;
+	height:37px;
+	text-decoration:none;}
+#content_cebian li a:hover {
+	background:url(../images/cbbg.jpg) no-repeat 0px 0px;
+	color:#fff;
+	}
+#content_cebian li.on a {
+	background:url(../images/cbbg.jpg) no-repeat top left;
+	color:#fff;
+	text-decoration:none;
+}
+#content_cebian li span {
+	float:left;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:36px;
+	height:37px;
+	cursor:auto;
+	font-size:0;
+}
+#content_cebian li span, #content_cebian li span.collapsed {
+	background:url(../images/cbbg.jpg) no-repeat 0px -37px;
+}
+#content_cebian li span.expanded {
+	background:url(../images/cbbg.jpg) no-repeat 0px 0px;
+}
+#content_cebian li li {
+	width:186px;
+}
+#content_cebian li li a {
+	padding-left:47px;
+	height:37px;
+}
+/*#sitemap li li span{left:28px;}*/
+
+#content_cebian li li li {
+	width:150px;
+}
+#content_cebian li li li span {
+	left:56px;
+}
+/*不理解*/
+
+.cebian_img1{
+	width:233px;
+	height:auto;
+	overflow:hidden;
+	margin-bottom:10px;}
+.content_Right{
+	width:725px;
+	float:right;
+	height:auto;
+	overflow:hidden;}
+.shouye{
+	border-bottom:1px dotted #b1b1b1;
+	line-height:30px;
+	text-align:right;
+	font-size:12px;
+	color:#999999;}
+.shouye a {color:#999999; text-decoration:none;}
+.shouye a:hover {color:#b11a1e;text-decoration:none;}
+.shouye span {color:#b11a1e;}
+.newsList{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	margin:0px 0px 15px;}
+.newsList li {
+	width:100%;
+	line-height:180%;
+	font-size:12px;
+	padding:5px 0px;
+	height:auto;
+	overflow:hidden;
+	border-bottom:1px dotted #ccc;}
+.newsList li.first dl {
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	padding:10px 0px;}
+.newsList li.first dl dt {
+	float:left;
+	width:217px;
+	height:139px;}
+.newsList li.first dl dd {
+	float:right;
+	width:495px;
+	height:auto;
+	overflow:hidden;
+	position:relative;}
+.newsList li.first dl dd h1 {
+	color:#b11a1e;
+	font-size:12px;
+	width:100%;
+	line-height:18px;
+	height:18px;
+	text-decoration:none;
+	overflow:hidden;
+	margin-bottom:5px;}
+.newsList li.first dl dd h1 a {color:#b11a1e;text-decoration:none;}
+.newsList li.first dl dd h1 a:hover {color:#b11a1e;text-decoration:none;}
+.newsList li.first dl dd p {
+	width:100%;
+	color:#666666;
+	height:90px;
+	overflow:hidden;}
+.newsList li.first dl dd span {color:#666;}
+.newsList li a.xinwen {
+	width:650px;
+	height:20px;
+	line-height:20px;
+	overflow:hidden;
+	text-decoration:none;
+	color:#666;
+	float:left;}
+.newsList li span.time {
+	float:right;
+	color:#666;
+	width:75px;
+	text-align:right;}
+.newsList li a.xinwen:hover {color:#b11a1e;text-decoration:none;}
+
+
+/**内容完**/
+
+	 /**底部**/ 
+.foot{
+	background:#181818;
+	height:auto;
+	width:100%;
+	overflow:hidden;}
+.foot_neirong{
+	width:970px;
+	margin:0px auto;}
+.foot_left{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	color:#fff;
+	margin:15px auto 20px;}
+.foot_left li {
+	float:left;
+	width:242px;
+	color:#656565;
+	overflow:hidden;}
+.foot_left li dl {
+	width:100%;
+	height:auto;
+	overflow:hidden;}
+.foot_left li dl dt {
+	color:#cfcfcf;
+	font-size:14px;
+	line-height:24px;
+	margin-bottom:10px;}
+.foot_left li dl dt a {color:#cfcfcf;text-decoration:none;}
+.foot_left li dl dt a:hover {color:#fff; text-decoration:none;}
+.foot_left li dl dd {
+	width:100%;
+	height:auto;
+	overflow:hidden;}
+.foot_left li dl dd div.foot_menu a {
+	color:#656565;
+	font-size:12px;
+	display:block;
+	height:20px;
+	line-height:20px;
+	overflow:hidden;
+	text-decoration:none;}
+.foot_left li dl dd div.foot_menu a:hover { color:#fff; text-decoration:none}
+.foot_left li dl dd div.foot_menu p {
+	color:#656565;
+	font-size:12px;
+	display:block;
+	height:20px;
+	line-height:20px;
+	overflow:hidden;}
+	
+#kefu{width:194px; height:116px; background: url(../images/kefu.jpg) no-repeat;}
+#f1{width:194px; height:20px; display:block;}
+#f2{width:194px; height:20px; display:block;}
+#f3{width:194px; height:30px; display:block; margin-top:40px;}
+    /**底部完**/
+	
+	
+/*----------------------------------------------内容---------------------------------------------*/
+	a {
+blr:expression(this.onFocus=this.blur())
+}/*去掉a标签的虚线框，避免出现奇怪的选中区域*/
+/**头部**/
+a:hover {
+	color:#181d55;
+	text-decoration:underline;}
+*html, *html body /* 修正IE6振动bug */ {
+	background-image:url(about:blank);
+	background-attachment:fixed;}
